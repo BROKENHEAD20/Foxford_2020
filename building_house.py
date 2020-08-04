@@ -7,8 +7,8 @@ def main():
     global win
     win = GraphWin("Picture", win_width, win_height)
     draw_house(win_width//3, win_height*2//3, 150, 200)
-    cursor_point = win.getMouse()
-    win.close()
+    # cursor_point = win.getMouse()
+    # win.close()
 
 def draw_house(x0, y0, width, height):
     """
